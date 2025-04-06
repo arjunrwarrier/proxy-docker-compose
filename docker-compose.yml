@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   proxy-client:
-    image: notwarrier/proxy-client/proxy-client:latest
+    image: notwarrier/proxy-client:latest
     ports:
       - "8080:8080"
     networks:
